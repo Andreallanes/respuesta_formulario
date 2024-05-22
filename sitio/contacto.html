@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilos/contacto.css">
+    <title>Contact - Wikipelis</title>
+    <script src="https://kit.fontawesome.com/e8c76d9338.js" crossorigin="anonymous"></script>
+    <script defer src="contacto.js"></script>
+    <link rel="icon" href="../imagenes/imagenFavi.ico">
+</head>
+<body>
+    <div class="item header">
+    <div class="container-head">
+      <a href="C:/Users/tomi_/OneDrive/Desktop/grupo14-master/grupo14-master/index.html">
+      <img class="headerimg" src="imagenes/imagenHeader.jpg" alt="logo de peliculas"></a>
+    <div class="tituloprincipal">Wikipelis<br>Enciclopedia de pelis</div>
+      <nav class="headernav">
+        <div class="navitem1">
+          <i class="fa-solid fa-magnifying-glass"></i><input type="search" id="barradebusqueda" required minlength="0" maxlength="50">
+        </div>
+        <div class="navitem2">
+          <p id="menu1"><a href="sitio/cookie_policy.html">Cookie Policy</a></p>
+          <p id="menu2"><a href="./sitio/privacy_policy.html">Privacy Policy</a></p>
+          <p id="menu3"><a href="./sitio/quienes_somos.html">About Us</a></p>
+          <p id="menu4"><a href="./sitio/terms_of_service.html">Terms of Service</a></p>
+          <ul class="dropdownmenu">
+            <li id="bars"><i class="fa-solid fa-bars"></i></li>
+          </ul>
+          </div>
+        </nav>
+    </div>
+</div>
+    <div class="item main">
+    <main class="content">
+            <h1 class="logo">Contact <span>Us</span></h1>
+                <div class="contact-wrapper">
+                    <div class="contact-form">
+                        <h3 class=" div_h3">Contactanos para subir tu reseña!!</h3>
+                        <form action="respuesta.html">
+                            <p>
+                                <label for="fullname">Nombre</label>
+                                <input type="text" name="fullname" id="fullname" required placeholder="Nombre o Alias" >
+                            </p>
+                            <p>
+                                <label for="email">Email</label>
+                                <input type="email" name="email" id="email" required placeholder="Email">
+                            </p>
+                            <p>
+                                <label for="peli">Pelicula</label>
+                                <input type="text" name="peli" placeholder="¿Cual es tu peli favorita?">
+                            </p>
+                            <p class="block">
+                                <label for="reseña">Reseña</label>
+                                <textarea name="reseña" rows="3" placeholder="Danos tu opinion " required></textarea>
+                            </p>
+                            <p class="block">
+                            <button type="submit">Enviar</button>
+                            </p>
+                        </form>
+                        <!--colocar mail despues de mailto para probar JavaScript-->
+                        <a href="mailto:"  id="emailP">Email</a>
+                        </div>
+                    <div class="contact-info">
+                        <h4 class="h4">Mas Info</h4>
+                        <ul>
+                            <li><i class="fa-solid fa-envelope"></i>wikipelis@gmail.com</li>
+                            <li><i class="fa-solid fa-location-dot"></i>Buenos Aires, Argentina</li>
+                        </ul>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat incidunt a mag</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi harum omnis </p>
+                    </div>
+                </div>
+    </main>
+</div>
+<div class="item footer">
+    <footer class="footer">
+            <div class="footer_div">
+                <ul>
+                    <li><a href="https://www.facebook.com/" class="facebook"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="https://www.instagram.com/" class="instagram"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="https://www.linkedin.com/" class="linkedin"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                    <li><a href="https://youtube.com/" class="youtube"><i class="fa-brands fa-youtube"></i></a></li>
+                </ul>
+            </div>
+<!--colocar footer abajo https://www.youtube.com/watch?v=PSD5pFi6bx4-->
+    </footer>
+</div>
+</body>
+</html>
